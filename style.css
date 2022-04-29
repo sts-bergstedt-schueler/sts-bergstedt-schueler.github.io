@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+div {
+    float: left;
+}
+
+.text {
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+
+.textlove {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 6em;
+}
+
+.textyou {
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 6em;
+    color: #fcfcfc;
+}
+
+.textyou.activ {
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 6em;
+    color: black;
+    transition: 1.5s;
+}
+
+@media(max-width: 798px) {
+    .textlove {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 2em;
+    }
+    
+    .textyou {
+        cursor: pointer;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 2em;
+        color: #fcfcfc;
+    }
+    
+    .textyou.activ {
+        cursor: pointer;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 2em;
+        color: black;
+        transition: 1.5s;
+    }
+}
